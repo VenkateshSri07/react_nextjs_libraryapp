@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #f8f8f8;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+a {
+  margin-left: 0.5rem;
+  color: blue;
+  text-decoration: none;
+}
+
+form.filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+form input,
+form select,
+form button {
+  padding: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: white;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pagination a {
+  padding: 0.5rem 0.75rem;
+  background: #eee;
+  border-radius: 4px;
+}
+
+.pagination a.active {
+  background: black;
+  color: white;
+}

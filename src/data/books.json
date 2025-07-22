@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "Book Title 13",
+    "author": "Author Name",
+    "isbn": "1234567890",
+    "published": "2020-01-01",
+    "available": true
+  },
+  {
+    "id": "f6feeedf-6dd8-4326-a72f-35393403c398",
+    "title": "sample",
+    "author": "sad",
+    "isbn": "asd",
+    "published": "2025-06-30",
+    "available": false
+  }
+]
